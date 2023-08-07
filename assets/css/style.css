@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #efefef;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -116,10 +118,4 @@ footer {
   text-align: center;
   margin-top: 50px;
   color: #757575;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* pour s'assurer que le padding ne s'ajoute pas à la largeur totale */
 }
