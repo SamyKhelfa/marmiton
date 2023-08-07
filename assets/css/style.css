@@ -1,13 +1,14 @@
 body {
-  font-family: 'Roboto', sans-serif; 
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #efefef;
 }
 
-img{
+img {
   max-width: 100%;
+  display: block;
+  justify-content: space-between;
 }
-
 
 .container {
   margin-top: 20px;
@@ -48,15 +49,77 @@ h3 {
   color: white;
   line-height: 40px;
   border-radius: 5px;
-  background-color: #8A98B1;
+  background-color: #8a98b1;
   text-align: center;
 }
 
-.images{
+header {
+  border-bottom: solid 1px #f3735f;
+  background-color: white;
+}
+
+header img {
+  width: 170px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.images {
   display: flex;
-  justify-content: space-between; 
   margin-top: 70px;
   max-height: 270px;
   max-width: 270px;
   border-radius: 20px;
+}
+
+.images img {
+  border-radius: 10px;
+  margin-right: 26px;
+  margin-left: 26px;
+}
+
+.images img:last-child {
+  margin-right: 0;
+}
+
+.recette h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f3735f;
+  display: flex;
+  margin-left: 26px;
+  margin-top: 55px;
+}
+
+.recette li {
+  margin-left: 40px;
+  color: #757575;
+}
+
+.step {
+  font-size: 20px;
+  color: #393c6c;
+  font-weight: bold;
+  margin-left: 26px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+a {
+  display: flex;
+  margin-left: 26px;
+  margin-bottom: 23px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #757575;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* pour s'assurer que le padding ne s'ajoute pas à la largeur totale */
 }
